@@ -1,0 +1,32 @@
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* spacing between items */
+  background-color: #09121e; /* dark background */
+  padding: 0.01rem;
+  border-radius: 0.75rem;
+  color: #e5e7eb; /* light text */
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* space between tick and text */
+}
+
+.tick-circle {
+  width: 24px;
+  height: 24px;
+  background-color: #f97316; /* orange circle */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  flex-shrink: 0;
+}
+
+.feature-text {
+  font-size: 1rem;
+}
